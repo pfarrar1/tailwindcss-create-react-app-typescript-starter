@@ -1,12 +1,13 @@
-# Create React App Starter - Typescript with TailwindCSS setup
+# Create React App Starter - TypeScript with TailwindCSS setup
 
 * https://create-react-app.dev/docs/adding-typescript/
 * https://tailwindcss.com
 
 * Extending implementation here (https://www.smashingmagazine.com/2020/02/tailwindcss-react-project/) to include the following
-    * Create React App Typescript Support (https://create-react-app.dev/docs/adding-typescript/)
+    * Create React App TypeScript Support (https://create-react-app.dev/docs/adding-typescript/)
     * TailwindCSS - PostCSS Purge Support (https://tailwindcss.com/docs/optimizing-for-production#removing-unused-css)
-    
+        * Local dev - `yarn build` ![Build No PostCSS purge](public/img/build.png)
+        * Local dev - `yarn build:prod` ![Build No PostCSS purge](public/img/build-prod.png)
 
 # Getting Started with Create React App
 
